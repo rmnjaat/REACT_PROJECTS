@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-size: 50px;
+
+}
+
+.button-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;   
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    
+
+}
+
+.Number{
+    
+    text-align: center;
+
+
+}
+
+.container{
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row ;   
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    column-gap: 13%;
+
+}
+.buttons{
+    background-color: white;
+    
+
+    /* border-style: solid; */
+    /* border-color: rgba(0, 0, 0, 0.743); */
+    box-shadow: 6px 6px 18px 3px rgba(0, 0, 0, 0.615);
+    
+
+
+
+}
+
+.buttons:hover{
+ 
+    box-shadow: 1px 1px 20px 10px rgba(90, 98, 92, 0.643);
+    
+}
+button{
+    border-style: none;
+    background-color: white;
+    
+}
